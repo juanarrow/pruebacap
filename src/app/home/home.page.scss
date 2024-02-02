@@ -3,9 +3,10 @@
 
   position: absolute;
   left: 0;
-  right: 0;
-  top: 50%;
-  transform: translateY(-50%);
+  top:0;
+  width:100%;
+  height:100%;
+
 }
 
 #container strong {
@@ -24,4 +25,14 @@
 
 #container a {
   text-decoration: none;
+}
+
+capacitor-google-map {
+  display: inline-block;
+  width: 100%;
+  height: 100%;
+}
+
+ion-content{
+  --background:transparent;
 }
